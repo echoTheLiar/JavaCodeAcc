@@ -6,7 +6,7 @@ import java.util.Collection;
 import java.util.Iterator;
 
 /**
- * 利用迭代器实现字符串反转
+ * åˆ©ç”¨è¿­ä»£å™¨å®žçŽ°å­—ç¬¦ä¸²å��è½¬
  * 
  * @author liuyuning
  * 
@@ -44,11 +44,6 @@ public class Reverse {
 
 	}
 
-	/**
-	 * 
-	 * @param s
-	 * @return
-	 */
 	public static String reverseWords(String s) {
 		ReverseCollection<String> reverseCollection = new ReverseCollection<String>(Arrays.asList(s.split(" ")));
 		StringBuilder stringBuilder = new StringBuilder();
@@ -56,22 +51,6 @@ public class Reverse {
 			stringBuilder.append(word + " ");
 		}
 		return stringBuilder.toString().trim();
-
-	}
-
-	/**
-	 * 
-	 * @param i
-	 * @Todo reverse int value
-	 */
-	public static int reverseInt(int i) {
-		boolean isNegative = false;
-
-		if (i < 0) {
-			isNegative = true;
-			i = -i;
-		}
-		return i;
 
 	}
 
