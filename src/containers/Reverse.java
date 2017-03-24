@@ -6,7 +6,7 @@ import java.util.Collection;
 import java.util.Iterator;
 
 /**
- * åˆ©ç”¨è¿­ä»£å™¨å®žçŽ°å­—ç¬¦ä¸²å��è½¬
+ * 利用迭代器实现反转操作
  * 
  * @author liuyuning
  * 
