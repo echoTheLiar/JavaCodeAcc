@@ -159,15 +159,17 @@ public class ThreadLifeCycle {
 	notifyThread.start();
 	printStatus(notifyThread);
 
+	TimeUnit.SECONDS.sleep(1);
+
 	// BLOCKED or TERMINATED
 	// TERMINATED：运行到此处时，如果notifyThread执行完notify操作后，调度器立马切换至thread的情况下，thread会先行终止，调度器再调度notifyThread
-	TimeUnit.SECONDS.sleep(1);
 	printStatus(thread);
 
 	printStatus(notifyThread);
 
-	// TERMINATED
 	TimeUnit.SECONDS.sleep(6);
+
+	// TERMINATED
 	printStatus(thread);
 
     }
