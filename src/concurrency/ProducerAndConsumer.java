@@ -111,7 +111,6 @@ public class ProducerAndConsumer {
 	for (int i = 0; i < 5; i++) {
 	    executorService.execute(new Producer(productQueue, i));
 	    executorService.execute(new Consumer(productQueue, i));
-
 	}
 
 	TimeUnit.SECONDS.sleep(10);
