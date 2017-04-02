@@ -8,4 +8,4 @@ Java代码积累，边学边做
 ## design pattern
 ## concurrency
 - [演示线程的生命周期](./src/concurrency/ThreadLifeCycle.java)
-- [生产者-消费者] 
+- [生产者-消费者](./src/concurrency/ProducerAndConsumer.java)
