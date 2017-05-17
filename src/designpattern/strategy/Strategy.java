@@ -1,7 +1,7 @@
 package designpattern.strategy;
 
 /**
- * 策略抽象类
+ * 策略接口
  * 
  * @author liu yuning
  *
