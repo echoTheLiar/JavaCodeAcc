@@ -9,6 +9,7 @@ Java代码积累
 - [利用迭代器实现反转](./src/containers/Reverse.java)
 ## design pattern
 - [简单工厂模式](./src/designpattern/factory/Calculator.java)
+- [策略模式](./src/designpattern/strategy/StrategyClient.java)
 
 ## concurrency
 - [演示线程的生命周期](./src/concurrency/ThreadLifeCycle.java)
