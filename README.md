@@ -1,5 +1,5 @@
 # JavaCodeAcc
-Java代码积累，边学边做
+Java代码积累
 ## basic
 - [正则表达式使用方式](./src/basic/UsingRegex.java)
 ## data structure
