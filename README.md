@@ -10,6 +10,7 @@ Java代码积累
 ## design pattern
 - [简单工厂模式](./src/designpattern/factory/Calculator.java)
 - [策略模式](./src/designpattern/strategy/StrategyClient.java)
+- [装饰模式](./src/designpattern/decorator/DecoratorClient.java)
 
 ## concurrency
 - [演示线程的生命周期](./src/concurrency/ThreadLifeCycle.java)
