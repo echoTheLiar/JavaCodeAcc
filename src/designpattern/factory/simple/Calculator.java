@@ -1,4 +1,4 @@
-package designpattern.factory;
+package designpattern.factory.simple;
 
 /**
  * 使用工厂方法生成实例完成运算操作

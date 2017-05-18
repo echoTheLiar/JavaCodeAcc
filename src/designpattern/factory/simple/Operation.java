@@ -1,4 +1,4 @@
-package designpattern.factory;
+package designpattern.factory.simple;
 
 /**
  * 操作类抽象类
@@ -7,8 +7,8 @@ package designpattern.factory;
  *
  */
 public abstract class Operation {
-    protected double numberA;
-    protected double numberB;
+    public double numberA;
+    public double numberB;
 
     public abstract double result();
 }
