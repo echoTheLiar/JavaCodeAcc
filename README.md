@@ -8,9 +8,14 @@ Java代码积累
 ## using containers
 - [利用迭代器实现反转](./src/containers/Reverse.java)
 ## design pattern
-- [简单工厂模式](./src/designpattern/factory/Calculator.java)
+- [简单工厂模式](./src/designpattern/factory/simple/Calculator.java)
 - [策略模式](./src/designpattern/strategy/StrategyClient.java)
 - [装饰模式](./src/designpattern/decorator/DecoratorClient.java)
+- [代理模式](./src/designpattern/delegation/ProxyClient.java)
+- [工厂方法模式](./src/designpattern/factory/method/FactoryClient.java)
+- [模板方法模式](./src/designpattern/template/TemplateClient.java)
+- [外观模式](./src/designpattern/facade/FacadeClient.java)
+- [建造者模式](./src/designpattern/builder/BuilderClient.java)
 
 ## concurrency
 - [演示线程的生命周期](./src/concurrency/ThreadLifeCycle.java)
