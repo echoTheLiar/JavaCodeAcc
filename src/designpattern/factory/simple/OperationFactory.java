@@ -3,7 +3,6 @@ package designpattern.factory.simple;
 /**
  * 操作类工厂类
  * 
- * @Todo 改造生成对象实例的方式
  * @author liu yuning
  *
  */
