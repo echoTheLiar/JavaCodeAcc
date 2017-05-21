@@ -27,6 +27,10 @@ Java代码积累：**[并发](./README.md/#concurrency) [设计模式](./README.
 - [桥接模式](./src/designpattern/bridge/BridgeClient.java)
 - [命令模式](./src/designpattern/command/CommandClient.java)
 - [职责链模式](./src/designpattern/responsibilitychain/Client.java)
+- [中介者模式](./src/designpattern/mediator/MediatorClient.java)
+- [享元模式](./src/designpattern/flyweight/FlyWeightClient.java)
+- [解释器模式](./src/designpattern/interpreter/InterpreterClient.java)
+- [访问者模式](./src/designpattern/visitor/VisitorClient.java)
 
 ## data structure
 - [Stack - 使用泛型实现栈](./src/datastructure/Stack.java)
