@@ -1,12 +1,10 @@
 # JavaCodeAcc
 Java代码积累
-## basic
-- [正则表达式使用方式](./src/basic/UsingRegex.java)
-## data structure
-- [Stack - 使用泛型实现栈](./src/datastructure/Stack.java)
-- [生成Fibonacci数列](./src/datastructure/Fibonacci.java)
-## using containers
-- [利用迭代器实现反转](./src/containers/Reverse.java)
+
+## concurrency
+- [演示线程的生命周期](./src/concurrency/ThreadLifeCycle.java)
+- [生产者-消费者](./src/concurrency/ProducerAndConsumer.java)
+
 ## design pattern
 @Todo 将模式按照分类重组顺序
 - [简单工厂模式](./src/designpattern/factory/simple/Calculator.java)
@@ -23,11 +21,26 @@ Java代码积累
 - [状态模式](./src/designpattern/state/StateClient.java)
 - [适配器模式](./src/designpattern/adapter/AdapterClient.java)
 - [备忘录模式](./src/designpattern/memento/MementoClient.java)
+- [组合模式](./src/designpattern/composite/CompositeClient.java)
+- [迭代器模式](./src/designpattern/iterator/IteratorClient.java)
+- [单例模式](./src/designpattern/singleton/SingletonClient.java)
+- [桥接模式](./src/designpattern/bridge/BridgeClient.java)
+- [命令模式](./src/designpattern/command/CommandClient.java)
+- [职责链模式](./src/designpattern/responsibilitychain/Client.java)
 
+## data structure
+- [Stack - 使用泛型实现栈](./src/datastructure/Stack.java)
+- [生成Fibonacci数列](./src/datastructure/Fibonacci.java)
 
-## concurrency
-- [演示线程的生命周期](./src/concurrency/ThreadLifeCycle.java)
-- [生产者-消费者](./src/concurrency/ProducerAndConsumer.java)
+## using containers
+- [利用迭代器实现反转](./src/containers/Reverse.java)
+
 ## tools
 - [@Todo 利用注解、反射实现一个小工具]()
 - [@Todo 批量修改文件后缀名]()
+
+## util
+- [StringUtil类 - 封装常用的String方法](./src/util/StringUtil.java)
+
+## basic
+- [正则表达式使用方式](./src/basic/UsingRegex.java)
