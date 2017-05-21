@@ -1,11 +1,11 @@
 # JavaCodeAcc
-Java代码积累:[并发](./README.md/#concurrency) [设计模式](./README.md/#designpattern) [数据结构](./README.md/#datastructure) [使用容器](./README.md/#usingcontainers) [工具](./README.md/#tools) [util类](./README.md/#util) [基础知识](./README.md/#basic)
+Java代码积累：[并发](./README.md/#Concurrency) [设计模式](./README.md/#DesignPattern) [数据结构](./README.md/#DataStructure) [使用容器](./README.md/#UsingContainers) [工具](./README.md/#Tools) [util类](./README.md/#Util) [基础知识](./README.md/#Basic)
 
-## concurrency
+## Concurrency
 - [演示线程的生命周期](./src/concurrency/ThreadLifeCycle.java)
 - [生产者-消费者](./src/concurrency/ProducerAndConsumer.java)
 
-## design pattern
+## DesignPattern
 @Todo 将模式按照分类重组顺序
 - [简单工厂模式](./src/designpattern/factory/simple/Calculator.java)
 - [策略模式](./src/designpattern/strategy/StrategyClient.java)
@@ -28,19 +28,19 @@ Java代码积累:[并发](./README.md/#concurrency) [设计模式](./README.md/#
 - [命令模式](./src/designpattern/command/CommandClient.java)
 - [职责链模式](./src/designpattern/responsibilitychain/Client.java)
 
-## data structure
+## DataStructure
 - [Stack - 使用泛型实现栈](./src/datastructure/Stack.java)
 - [生成Fibonacci数列](./src/datastructure/Fibonacci.java)
 
-## using containers
+## UsingContainers
 - [利用迭代器实现反转](./src/containers/Reverse.java)
 
-## tools
+## Tools
 - [@Todo 利用注解、反射实现一个小工具]()
 - [@Todo 批量修改文件后缀名]()
 
-## util
+## Util
 - [StringUtil类 - 封装常用的String方法](./src/util/StringUtil.java)
 
-## basic
+## Basic
 - [正则表达式使用方式](./src/basic/UsingRegex.java)
