@@ -5,7 +5,7 @@ Java代码积累：**[并发](./README.md/#concurrency) [设计模式](./README.
 - [演示线程的生命周期](./src/concurrency/ThreadLifeCycle.java)
 - [生产者-消费者](./src/concurrency/ProducerAndConsumer.java)
 
-## design pattern (参考《大话设计模式》)
+## design pattern 参考《大话设计模式》
 - [简单工厂模式](./src/designpattern/factory/simple/Calculator.java)
 ### 创建型模式
 - [工厂方法模式](./src/designpattern/factory/method/FactoryClient.java)
